@@ -1,0 +1,137 @@
+/* Todo o conteundo da Main */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    width: 1100px;
+    margin: 10px auto;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    border: 1px solid var(--color-terciaria);
+    align-items: center;
+}
+
+main h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--color-secundaria);
+}
+
+main p {
+    color: var(--color-terciaria);
+    font-weight: 500;
+}
+
+main a {
+    color: var(--color-secundaria);
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+li h3 {
+    color: var(--color-secundaria);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+li div img {
+    height: 200px;
+}
+
+/* Conteudo da main somente na section sobre mim */
+main .sobremim {
+    gap: 50px;
+}
+
+.sobremim img {
+    height: 420px;
+    border-radius: 90px;
+}
+
+.sobremim__div{
+    display: flex;
+    width: 800px;
+    gap: 50px;
+}
+
+.sobremim__apresentação {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin: 20px;
+}
+
+/* Conteudo da main somente na section formação */
+main .formacao {
+    gap: 50px;
+}
+
+/* Conteudo da main somente na section Portfólio */
+main .portfolio {
+    gap: 20px;
+}
+
+/* Conteudo da main somente na section Contato */
+main .contato {
+    gap: 20px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+form div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+form label {
+    width: 80px;
+    padding: 10px;
+    text-align: right;
+    font-weight: 600;
+    color: var(--color-secundaria);
+}
+
+form input {
+    width: 300px;
+    border-radius: 5px;
+}
+
+#mensagem::placeholder {
+    text-align: center;
+}
+
+form textarea {
+    border-radius: 5px;
+}
+
+form button {
+    font-weight: 600;
+    color: var(--color-primaria);
+    background: var(--color-secundaria);
+    padding: 10px;
+    width: 100px;
+}
+
+form button:hover {
+    cursor: pointer;
+}

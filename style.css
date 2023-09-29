@@ -1,0 +1,20 @@
+/* Arquivo css aonde guardo todas as váriaveis e links de todos outros arquivos css */
+@import url(./style/reset.css);
+@import url(./style/header.css);
+@import url(./style/main.css);
+@import url(./style/footer.css);
+
+:root {
+    --font-primaria:'Inter', sans-serif;
+    --color-primaria: #F0F0F0;
+    --color-secundaria: #213555;
+    --color-terciaria: #4F709C;
+    --color-quaternaria: #E5D283;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: var(--font-primaria);
+    background: var(--color-primaria);
+}
